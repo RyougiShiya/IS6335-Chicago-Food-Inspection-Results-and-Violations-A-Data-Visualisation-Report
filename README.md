@@ -2,15 +2,15 @@ CHICAGO FOOD INSPECTION RESULTS AND VIOLATIONS
 Source code and data submission
 
 CONTENTS
-Individual_Project.twbx  Original packaged Tableau workbook, including its Hyper extract.
+Individual_Project.twbx  Original packaged Tableau workbook, including its Hyper extract.(Not in this repository due to file size)
 Individual_Project.R     R analysis and visualisation script with English comments.
 Individual_Project.ipynb Python cleaning and analysis notebook with English comments.
 Individual_Project.py    Equivalent Python script exported from the notebook.
-data/                    Original CSV, cleaned Excel workbook and ZIP boundaries.
+data/                    Original CSV, cleaned Excel workbook and ZIP boundaries. (Not in this repository due to file size, but could get URL through individual project report)
 requirements.txt         Python packages used by the notebook.
 
 HOW TO USE
-Extract the entire ZIP before opening the files. Keep the directory structure.
+First, download raw data through URL in individual project report.
 Open a terminal in this extracted folder, install the Python dependencies with
   python -m pip install -r requirements.txt
 and launch Jupyter from this folder. Open Individual_Project.ipynb and run cells
@@ -23,10 +23,6 @@ For R, set the working directory to this extracted folder. Install packages:
   install.packages(c('readxl', 'dplyr', 'tidyr', 'ggplot2', 'scales', 'tibble'))
 Open Individual_Project.R and run its sections in order. The script uses the
 bundled cleaned Excel file. Figure objects are displayed interactively.
-
-Open Individual_Project.twbx in Tableau Desktop or a compatible Tableau edition.
-The packaged workbook includes its original data extract. Rerunning Python does
-not automatically refresh this embedded Tableau extract.
 
 ANALYSIS NOTES
 The notebook retains the original exploratory sections, including inspection-type
